@@ -1,0 +1,21 @@
+O sistema operacional é um software capaz de gerenciar os componentes de um computador ou equipamento análogo. Ele serve como interface entre o humano, ou outros softwares, e a máquina.
+
+Antes do surgimento dos sistemas operacionais, era o próprio programador quem devia instruir a máquina, passo a passo, sobre o que fazer. Uma simples operação aritmética como somar 1 mais 1, que hoje podemos fazer em planilhas eletrônicas digitando a fórmula "=1+1", seria uma tarefa muito mais complicada sem os sistemas operacionais.
+
+De forma muito simplificada, sem os sistemas operacionais, o programa de computador teria que realizar os seguintes passos:
+1. Alocar o número 1 em um registrador do processador.
+2. Alocar outro número 1 em outro registrador.
+3. Acionar a unidade lógica aritmética para realizar a soma dos dois números, passando o endereço dos registradores iniciais.
+4. Alocar o resultado da soma em um terceiro registrador.
+5. Verificar se ocorreu overflow.
+5.1 Tratar o overflow, se necessário.
+6. Verificar um endereço de memória RAM disponível.
+7. Copiar o valor do resultado armazenado no registrador para o endereço de memória.
+8. Alocar o periférico onde o valor será exibido ou armazenado.
+9. Enviar o resultado para o periférico (impressora, tela, armazenamento, etc.).
+10. Liberar o periférico alocado.
+Nos primórdios da computação, cada sistema operacional era desenvolvido para uma máquina específica. No final da década de 1960 surgiu o sistema operacional Unix, no início da década de 1970 ele foi reescrito em linguagem C por Ken Thompson e Dennis Ritchie. Isso facilitou significativamente a portabilidade, já que era necessário apenas adaptar a linguagem C para o novo hardware e recompilar o Unix.
+
+Outro sistema operacional muito importante atualmente é o Linux, desenvolvido por Linus Torvalds tendo como base o sistema operacional Minix, desenvolvido por Andrew S. Tanenbaum. É um sistema operacional "tipo Unix" e seu código é aberto e livre, ou seja, qualquer pessoa ou empresa pode utilizar esse sistema operacional e adequá-lo sem a necessidade de pagar nenhum valor ao seu criador. Android e seus derivados são sistemas operacionais Linux customizados e podem ser encontrados em vários equipamentos, sendo os principais tablets, smartphones e televisores.
+
+Atualmente, existem vários sistemas operacionais, tais como Windows, iOS, Unix etc, além dos "tipo Unix" com Linux (e seus derivados), macOS, Android (e seus derivados), que não necessariamente são derivados do Unix, mas guardam uma forte semelhança. Com o maior uso de processadores se disseminando nas mais variadas áreas, como em eletrodomésticos, indústria automobilistica, naval, aeroespacial, etc., o uso de sistemas operacionais ultrapassou os limites dos centros de computação.
